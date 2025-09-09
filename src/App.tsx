@@ -278,8 +278,8 @@ function App() {
                 controls
                 poster="/videos/demo-thumbnail.jpg"
               >
-                <source src="/videos/gt-movies-demo.mp4" type="video/mp4" />
-                <source src="/videos/gt-movies-demo.webm" type="video/webm" />
+                <source src="project\public\videos\gt-movies-demo.mp4" type="video/mp4" />
+                <source src="project\public\videos\gt-movies-demo.webm" type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
