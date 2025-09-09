@@ -273,15 +273,14 @@ function App() {
 
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
             <div className="relative">
-              <video 
-                className="w-full aspect-video"
-                controls
-                poster="/videos/demo-thumbnail.jpg"
-              >
-                <source src="project\public\videos\gt-movies-demo.mp4" type="video/mp4" />
-                <source src="project\public\videos\gt-movies-demo.webm" type="video/webm" />
-                Your browser does not support the video tag.
-              </video>
+                          <video
+              className="w-full aspect-video rounded-2xl shadow-xl"
+              controls
+            >
+              <source src="/videos/gt-movies-demo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
             </div>
           </div>
         </div>
